@@ -1,0 +1,111 @@
+/* ============================================================
+   FONTS — self-hosted via @fontsource
+============================================================ */
+@import "@fontsource/playfair-display/700.css";
+@import "@fontsource/playfair-display/900.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/inter/900.css";
+@import "@fontsource/tajawal/400.css";
+@import "@fontsource/tajawal/700.css";
+@import "@fontsource/tajawal/900.css";
+@import "@fontsource/cairo/400.css";
+@import "@fontsource/cairo/500.css";
+@import "@fontsource/cairo/600.css";
+@import "@fontsource/cairo/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   CSS Variables — font family tokens for Tailwind
+============================================================ */
+
+:root {
+  --font-playfair: "Playfair Display", Georgia, serif;
+  --font-inter: "Inter", system-ui, sans-serif;
+  --font-tajawal: "Tajawal", "Cairo", sans-serif;
+  --font-cairo: "Cairo", "Tajawal", sans-serif;
+}
+
+/* ============================================================
+   Base styles — mirrors the approved design artifact
+============================================================ */
+
+@layer base {
+  html {
+    background: #FAFAF7;
+    color: #1F2821;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-inter);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Arabic uses Cairo by default, headings use Tajawal */
+  html[dir="rtl"] body {
+    font-family: var(--font-cairo);
+  }
+
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] h4 {
+    font-family: var(--font-tajawal);
+  }
+
+  /* English uses Playfair for headings, Inter for body */
+  html[dir="ltr"] h1,
+  html[dir="ltr"] h2,
+  html[dir="ltr"] h3 {
+    font-family: var(--font-playfair);
+  }
+
+  a {
+    color: #2C5F2D;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  a:hover {
+    color: #C9A961;
+  }
+
+  /* Accessible focus ring */
+  :focus-visible {
+    outline: 2px solid #C9A961;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+/* ============================================================
+   Utilities
+============================================================ */
+
+@layer utilities {
+  .container-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .container-content {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+
+  /* RTL-aware horizontal flipping */
+  html[dir="rtl"] .rtl-flip {
+    transform: scaleX(-1);
+  }
+}

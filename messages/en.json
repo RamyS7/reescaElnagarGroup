@@ -1,0 +1,373 @@
+{
+  "nav": {
+    "home": "Home",
+    "wood": "Wood Products",
+    "trading": "General Trading",
+    "about": "About",
+    "contact": "Contact",
+    "getQuote": "Get a Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "common": {
+    "readMore": "Read more",
+    "inquire": "Inquire",
+    "explore": "Explore",
+    "sendInquiry": "Send Inquiry",
+    "language": "Language",
+    "typicalApplications": "Typical Applications",
+    "moreDetails": "More Details",
+    "contactWhatsapp": "Contact via WhatsApp",
+    "contactEmail": "Send Email Inquiry"
+  },
+  "comingSoon": {
+    "eyebrow": "COMING SOON",
+    "body": "This page is being prepared. In the meantime you can return to the homepage or reach out to our team directly.",
+    "backHome": "Back to Home"
+  },
+  "form": {
+    "name": "Full Name",
+    "namePlaceholder": "Your name",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "productType": "Product Type",
+    "selectPlaceholder": "Select a product",
+    "destinationCountry": "Destination Country",
+    "countryPlaceholder": "Country",
+    "quantity": "Required Quantity",
+    "quantityPlaceholder": "e.g. 20 cubic meters",
+    "projectDetails": "Project Details",
+    "message": "Your Message",
+    "messagePlaceholder": "Tell us what you need: product, quantity, destination...",
+    "sendInquiry": "Send Inquiry",
+    "sending": "Sending...",
+    "successMessage": "Received — our team will get back to you shortly.",
+    "errorMessage": "Something went wrong, please try again.",
+    "mailtoFallback": "Your email client should open — send the message to complete your inquiry.",
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "messageTooShort": "Message is too short (10 characters minimum)",
+      "messageTooLong": "Message is too long (2000 characters maximum)"
+    }
+  },
+  "branches": {
+    "egyptMain": {
+      "country": "EGYPT",
+      "name": "Reesca Company",
+      "address": "Petrochemicals Road, Murgham Industrial Area, Alexandria 23722"
+    },
+    "egyptFactory": {
+      "country": "EGYPT · FACTORY",
+      "name": "Afamia Sky Plywood",
+      "address": "Petrochemicals Road, Murgham Industrial Area, Alexandria 23722"
+    },
+    "turkey": {
+      "country": "TURKEY",
+      "name": "Reesca Elnagar Int'l",
+      "address": "Yavuz Sultan Selim Mah., Dr. Sadik Ahmet Cad. No: 24, Fatih, Istanbul"
+    },
+    "uae": {
+      "country": "UAE",
+      "name": "Reesca Global Trading",
+      "address": "Office 1, Building 361, Al Suwaidi, Al Quoz Industrial First, Dubai"
+    }
+  },
+  "products": {
+    "panels": {
+      "name": "Panels",
+      "desc": "Wood panels for furniture and interior projects",
+      "app1": "Furniture components",
+      "app2": "Cabinetry and interior fit-outs",
+      "discuss": "Discuss panel type, dimensions and surface requirements."
+    },
+    "birchPlywood": {
+      "name": "Birch Plywood",
+      "desc": "Birch plywood sheets with a pale, smooth natural face",
+      "app1": "Furniture and joinery",
+      "app2": "Interior components and packaging",
+      "discuss": "Discuss thickness, face quality and the grade required for use."
+    },
+    "hardwood": {
+      "name": "Hardwood",
+      "desc": "Natural timber with distinctive grain and character",
+      "app1": "Furniture and joinery",
+      "app2": "Decorative woodwork",
+      "discuss": "Discuss species, board dimensions and finish requirements."
+    },
+    "softwood": {
+      "name": "Softwood",
+      "desc": "Pale natural timber for a range of woodworking uses",
+      "app1": "Joinery and general carpentry",
+      "app2": "Crates and packaging",
+      "discuss": "Discuss species, moisture requirements and required dimensions."
+    },
+    "veneer": {
+      "name": "Veneer",
+      "desc": "Thin natural wood sheets for decorative surfaces",
+      "app1": "Furniture faces",
+      "app2": "Decorative panels and interior surfaces",
+      "discuss": "Discuss grain, colour, sheet size and matching requirements."
+    },
+    "birchVeneer": {
+      "name": "Birch Veneer",
+      "desc": "Pale natural veneer with fine, subtle grain",
+      "app1": "Decorative furniture surfaces",
+      "app2": "Interior panels and joinery",
+      "discuss": "Discuss veneer thickness, sheet size and face quality."
+    }
+  },
+  "wood": {
+    "hero": {
+      "eyebrow": "HOME · WOOD PRODUCTS",
+      "title": "Wood Products",
+      "subtitle": "Panels, plywood, veneer, logs, MDF & more — sourced from Europe and worldwide."
+    },
+    "intro": {
+      "eyebrow": "OUR MAIN BUSINESS",
+      "title": "Crafted in Alexandria, Trusted Worldwide",
+      "paragraph1": "Our main plywood factory is based in Alexandria, Egypt, with over 15 years of experience in the wood industry. We manufacture plywood in a wide range of types and sizes, and supply hardwood, softwood, timber logs, wood veneer and other wood products.",
+      "paragraph2": "Our team sources from Europe and all over the world, ensuring every shipment meets the specifications your project needs."
+    },
+    "products": {
+      "eyebrow": "OUR PRODUCTS",
+      "title": "Wood Product Categories"
+    },
+    "factory": {
+      "eyebrow": "OUR MANUFACTURING",
+      "title": "Our Alexandria Factory",
+      "body": "Our main plywood manufacturing facility is located in the Murgham Industrial Area of Alexandria, Egypt — the strategic port city that connects our products to global markets.",
+      "bullet1": "In-house plywood manufacturing",
+      "bullet2": "Wide range of types, sizes and specifications",
+      "bullet3": "European and global wood sourcing",
+      "bullet4": "Direct port access for export"
+    },
+    "inquiry": {
+      "eyebrow": "GET IN TOUCH",
+      "title": "Tell Us What You Need",
+      "subtitle": "Our team can discuss availability, specifications and quotation."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "EGYPT · TURKEY · UAE",
+      "headline": "All the Wood Products",
+      "headlineAccent": "& More",
+      "subtitle": "Your trusted global supplier for premium wood products and strategic commodities, with 15+ years of international trade expertise.",
+      "ctaPrimary": "Explore Products",
+      "ctaSecondary": "Contact Us",
+      "badge": "15+ YEARS OF TRUST"
+    },
+    "stats": {
+      "years": "YEARS EXPERIENCE",
+      "companies": "GROUP COMPANIES",
+      "countries": "COUNTRIES",
+      "clients": "GLOBAL CLIENTS"
+    },
+    "divisions": {
+      "eyebrow": "WHAT WE DO",
+      "title": "Two Divisions, One Trusted Partner",
+      "woodTitle": "Wood Products",
+      "woodDesc": "Panels, plywood, veneer, logs, MDF & more — sourced from Europe and worldwide, manufactured in our Alexandria factory.",
+      "woodCta": "Explore Wood",
+      "tradingTitle": "General Trading",
+      "tradingDesc": "Strategic commodities worldwide — grains, cooking oils, fabrics, chemicals, iron and more. We source what you need.",
+      "tradingCta": "Explore Trading"
+    },
+    "about": {
+      "eyebrow": "ABOUT US",
+      "title": "A Legacy of Quality\nAcross Three Continents",
+      "paragraph1": "REESCA GROUP is a group of companies and factories across Egypt, Turkey, and the UAE, with over 15 years of experience in the wood industry and sourcing from Europe and worldwide.",
+      "paragraph2": "Our main plywood factory is based in Alexandria, Egypt, alongside export and import companies across our three countries of operation.",
+      "overlayEyebrow": "OUR FACTORY",
+      "overlayPlace": "Alexandria, Egypt",
+      "readMore": "Read Our Story"
+    },
+    "locations": {
+      "eyebrow": "GLOBAL PRESENCE",
+      "title": "Our Locations"
+    },
+    "whyUs": {
+      "eyebrow": "WHY CHOOSE US",
+      "title": "Built on Trust, Driven by Quality",
+      "network": "Global Network",
+      "networkDesc": "Sourcing from Europe, Asia, and worldwide for the finest materials.",
+      "experience": "15+ Years Expertise",
+      "experienceDesc": "Deep knowledge of international trade, logistics, and quality control.",
+      "quality": "Quality Assured",
+      "qualityDesc": "Every shipment inspected to meet international grade and specification.",
+      "response": "Fast Response",
+      "responseDesc": "Multilingual team ready to quote and ship across time zones."
+    },
+    "cta": {
+      "title": "Ready to source with us?",
+      "subtitle": "Tell us what your project needs — our team will respond with availability and a quotation.",
+      "button": "Request a Quote"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "HOME · CONTACT",
+      "title": "Contact Us",
+      "subtitle": "Reach our team across Egypt, Turkey, and the UAE — ready to serve you."
+    },
+    "branches": {
+      "eyebrow": "OUR BRANCHES",
+      "title": "4 Offices · 3 Countries",
+      "openInMaps": "Open in Maps"
+    },
+    "team": {
+      "eyebrow": "OUR TEAM",
+      "title": "Direct Contact"
+    },
+    "form": {
+      "eyebrow": "SEND A MESSAGE",
+      "title": "We'll Get Back to You Quickly",
+      "subtitle": "Fill in the form and our team will respond within business hours."
+    }
+  },
+  "footer": {
+    "tagline": "Your trusted global supplier of wood products and strategic commodities, with 15+ years of international trade experience.",
+    "quickLinks": "QUICK LINKS",
+    "products": "PRODUCTS",
+    "contact": "CONTACT",
+    "productPlywoodPanels": "Plywood & Panels",
+    "productHardwoodSoftwood": "Hardwood & Softwood",
+    "productVeneerLogs": "Veneer & Logs",
+    "productMdfOsbBlockboard": "MDF, OSB & Blockboard",
+    "productStrategicCommodities": "Strategic Commodities",
+    "copyright": "© 2026 Reesca Elnagar Group. All rights reserved.",
+    "regions": "Egypt · Turkey · UAE"
+  },
+  "whatsapp": {
+    "label": "Chat on WhatsApp",
+    "defaultMessage": "Hello, I would like to inquire about your products."
+  },
+  "trading": {
+    "hero": {
+      "title": "General Trading",
+      "subtitle": "Strategic commodities worldwide — grains, oils, fabrics, chemicals, iron and more."
+    },
+    "vision": {
+      "eyebrow": "OUR VISION",
+      "text": "We aim to be your <strong>main partner in international trade</strong> worldwide. Across all categories of strategic commodities, we are ready to serve you with a complete, specialized team — finest quality, safest routes, best prices — based on demand and availability."
+    },
+    "grid": {
+      "eyebrow": "WHAT WE SUPPLY",
+      "title": "Strategic Commodities Grid"
+    },
+    "andMore": {
+      "title": "And many more",
+      "text": "Any product, any origin — ask us for sourcing."
+    },
+    "inquiry": {
+      "quote": "You can inquire about any product or commodity, of any type or origin, and we will respond with details and feasibility quickly.",
+      "quoteEn": "You can inquire about any product or commodity, of any type or origin, and we will respond with details and feasibility quickly."
+    },
+    "cta": {
+      "eyebrow": "GET IN TOUCH",
+      "title": "Ready to source your next shipment?",
+      "whatsapp": "Chat with us",
+      "email": "Send inquiry"
+    },
+    "products": {
+      "wheat": {
+        "name": "Wheat",
+        "caption": "Wheat · Grain"
+      },
+      "rice": {
+        "name": "Rice",
+        "caption": "Rice · Grain"
+      },
+      "corn": {
+        "name": "Corn",
+        "caption": "Corn · Grain"
+      },
+      "freshProduce": {
+        "name": "Fresh Produce",
+        "caption": "Fresh Fruits & Vegetables"
+      },
+      "frozenProduce": {
+        "name": "Frozen Produce",
+        "caption": "Frozen Fruits & Vegetables"
+      },
+      "cookingOils": {
+        "name": "Cooking Oils",
+        "caption": "Cooking Oils"
+      },
+      "iron": {
+        "name": "Raw Iron & Scrap",
+        "caption": "Raw Iron & Scrap"
+      },
+      "chemicals": {
+        "name": "Chemicals",
+        "caption": "Chemicals"
+      },
+      "fabrics": {
+        "name": "Raw Fabrics",
+        "caption": "Raw Fabrics"
+      },
+      "clothes": {
+        "name": "Ready-made Clothes",
+        "caption": "Ready-made Clothes"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "A group of companies and factories across three countries, with a vision of further global expansion."
+    },
+    "intro": {
+      "eyebrow": "ABOUT THE COMPANY",
+      "title": "Reesca Elnagar Group",
+      "paragraph": "REESCA GROUP is a Group of companies and factories located in Egypt, Turkey and UAE, with a vision of further global expansion. Our main plywood factory is based in Alexandria, Egypt, alongside export and import companies in Egypt, Turkey and UAE. Our team has over 15 years of experience in the wood industry and sourcing from Europe and all over the world. We manufacture plywood in a wide range of types and sizes, and supply hardwood, softwood, timber logs, wood veneer and other wood products."
+    },
+    "locations": {
+      "eyebrow": "OUR COMPANIES & LOCATIONS",
+      "title": "4 Companies · 3 Countries"
+    },
+    "supply": {
+      "eyebrow": "READY TO SUPPLY",
+      "title": "Our Supply Range",
+      "subtitle": "Contact our team with your product requirements.",
+      "birchPlywood": "Birch plywood",
+      "veneer": "All types of veneer and wood sheets",
+      "softHardwood": "Softwood and hardwood",
+      "logs": "Logs, including birch logs"
+    },
+    "team": {
+      "eyebrow": "OUR TEAM",
+      "title": "Contact Our Team",
+      "generalManager": "General Manager",
+      "salesManager": "Sales Manager",
+      "whatsapp": "WhatsApp",
+      "call": "Call"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Reesca Elnagar — Global Wood Products & Strategic Commodities Supplier",
+      "description": "Trusted international supplier of premium wood products and strategic commodities. Egypt · Turkey · UAE. 15+ years in export and import."
+    },
+    "wood": {
+      "title": "Wood Products — Panels, Plywood, Veneer, MDF, OSB",
+      "description": "10 categories of high-quality wood products from our Alexandria factory. Birch plywood, hardwood, softwood, veneer, logs, MDF, OSB, blockboard."
+    },
+    "trading": {
+      "title": "General Trading — Strategic Commodities Worldwide",
+      "description": "Your partner in international trade. Grains (wheat, rice, corn), cooking oils, chemicals, fabrics, iron, fresh and frozen produce. Best prices."
+    },
+    "about": {
+      "title": "About Reesca Elnagar Group",
+      "description": "Group of companies and factories across Egypt, Turkey, and the UAE, with 15+ years of experience in the wood industry and international trade."
+    },
+    "contact": {
+      "title": "Contact Us — 4 Offices Across 3 Countries",
+      "description": "Our branches in Alexandria (Egypt), Istanbul (Turkey), and Dubai (UAE). WhatsApp, email, and quick inquiry form. Multilingual team."
+    }
+  }
+}
