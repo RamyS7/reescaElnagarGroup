@@ -51,7 +51,7 @@ export const tradingProducts: TradingProduct[] = [
     slug: "iron",
     nameKey: "trading.products.iron.name",
     captionKey: "trading.products.iron.caption",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80",
+    image: "/images/trading/iron.webp",
   },
   {
     slug: "chemicals",

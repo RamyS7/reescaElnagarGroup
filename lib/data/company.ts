@@ -26,8 +26,10 @@ export const company = {
   },
 
   emails: {
-    primary: "afamiaplywood@gmail.com",
-    secondary: "Elnagar.group.llc@gmail.com",
+    // Official domain addresses — shown in the Footer and Contact page
+    management: "Management@reescaelnagargroup.com",
+    sales: "Sales@reescaelnagargroup.com", // receives all inquiry-form submissions
+    info: "Info@reescaelnagargroup.com",
   },
 
   // Primary WhatsApp destination (floating button + general CTAs)

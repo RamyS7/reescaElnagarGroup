@@ -147,7 +147,7 @@ export default function ComponentsShowcase() {
             branch={{
               countryFlag: "🇹🇷",
               countryLabel: "TURKEY",
-              name: "Reesca Elnagar Int'l",
+              name: "Reesca Elnagar International",
               address: "Yavuz Sultan Selim Mah., Fatih, Istanbul",
             }}
           />
@@ -155,7 +155,7 @@ export default function ComponentsShowcase() {
             branch={{
               countryFlag: "🇦🇪",
               countryLabel: "UAE",
-              name: "Reesca Global Trading",
+              name: "Reesca Elnagar Global Trading",
               address: "Office 1, Al Quoz Industrial First, Dubai",
             }}
           />

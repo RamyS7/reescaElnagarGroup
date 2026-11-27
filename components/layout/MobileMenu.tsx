@@ -87,15 +87,16 @@ export function MobileMenu() {
 
             <aside
               className={
-                "fixed top-0 bottom-0 z-[101] w-80 max-w-[85vw] bg-white p-6 shadow-2xl transition-transform duration-300 lg:hidden " +
+                "fixed top-0 bottom-0 z-[101] w-80 max-w-[85vw] bg-white p-6 shadow-2xl transition-[transform,visibility] duration-300 lg:hidden " +
                 // Panel slides from the "end" side (right in LTR, left in RTL)
                 "end-0 " +
-                (open ? "translate-x-0" : "rtl:translate-x-[-110%] ltr:translate-x-[110%]")
+                // `invisible` when closed keeps the off-screen links out of the Tab order
+                (open ? "visible translate-x-0" : "invisible rtl:translate-x-[-110%] ltr:translate-x-[110%]")
               }
               aria-hidden={!open}
             >
               <div className="mb-6 flex items-center justify-between">
-                <span className="text-xs font-bold tracking-[2px] text-gold">MENU</span>
+                <span className="text-xs font-bold tracking-[2px] text-gold">{t("menu")}</span>
                 <button
                   type="button"
                   onClick={() => setOpen(false)}

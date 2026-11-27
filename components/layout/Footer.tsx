@@ -141,15 +141,16 @@ export function Footer() {
                   {company.team.farid.phoneDisplay}
                 </a>
               </li>
-              <li className="mt-2 flex items-center gap-2">
-                <Mail className="h-4 w-4 text-gold" aria-hidden="true" />
-                <a
-                  href={`mailto:${company.emails.primary}`}
-                  className="text-white/75 hover:text-gold"
-                >
-                  {company.emails.primary}
-                </a>
-              </li>
+              {[company.emails.management, company.emails.sales, company.emails.info].map(
+                (email, i) => (
+                  <li key={email} className={`${i === 0 ? "mt-2 " : ""}flex items-center gap-2`}>
+                    <Mail className="h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
+                    <a href={`mailto:${email}`} className="break-all text-white/75 hover:text-gold">
+                      {email}
+                    </a>
+                  </li>
+                ),
+              )}
             </ul>
           </div>
         </div>

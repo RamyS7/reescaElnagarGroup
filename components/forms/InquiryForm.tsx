@@ -157,7 +157,7 @@ export function InquiryForm({
           values.message,
         ].join("\n");
 
-        const mailto = `mailto:${company.emails.primary}?subject=${encodeURIComponent(
+        const mailto = `mailto:${company.emails.sales}?subject=${encodeURIComponent(
           subject,
         )}&body=${encodeURIComponent(body)}`;
         window.location.href = mailto;

@@ -39,6 +39,11 @@ export function Hero() {
           <br />
           <span className="text-gold">{t("headlineAccent")}</span>
         </h1>
+        <p className="mt-6 font-heading text-2xl italic leading-snug text-white/95 rtl:font-heading-ar rtl:not-italic md:text-3xl">
+          {t("tagline")}
+          <br />
+          <span className="text-gold">{t("taglineAccent")}</span>
+        </p>
         <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/85 md:text-xl">
           {t("subtitle")}
         </p>

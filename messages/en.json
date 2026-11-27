@@ -7,7 +7,8 @@
     "contact": "Contact",
     "getQuote": "Get a Quote",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "menu": "MENU"
   },
   "common": {
     "readMore": "Read more",
@@ -63,17 +64,17 @@
     },
     "egyptFactory": {
       "country": "EGYPT · FACTORY",
-      "name": "Afamia Sky Plywood",
+      "name": "Afamia Sky Plywood LLc Factory",
       "address": "Petrochemicals Road, Murgham Industrial Area, Alexandria 23722"
     },
     "turkey": {
       "country": "TURKEY",
-      "name": "Reesca Elnagar Int'l",
+      "name": "Reesca Elnagar group International Mobilya Stls",
       "address": "Yavuz Sultan Selim Mah., Dr. Sadik Ahmet Cad. No: 24, Fatih, Istanbul"
     },
     "uae": {
       "country": "UAE",
-      "name": "Reesca Global Trading",
+      "name": "Reesca Elnagar Global Trading co LLC Sos",
       "address": "Office 1, Building 361, Al Suwaidi, Al Quoz Industrial First, Dubai"
     }
   },
@@ -185,6 +186,8 @@
       "eyebrow": "EGYPT · TURKEY · UAE",
       "headline": "All the Wood Products",
       "headlineAccent": "& More",
+      "tagline": "Natural Materials",
+      "taglineAccent": "Global Possibilities",
       "subtitle": "Your trusted global supplier for premium wood products and strategic commodities, with 15+ years of international trade expertise.",
       "ctaPrimary": "Explore Products",
       "ctaSecondary": "Contact Us",
@@ -329,8 +332,8 @@
         "caption": "Cooking Oils"
       },
       "iron": {
-        "name": "Raw Iron & Scrap",
-        "caption": "Raw Iron & Scrap"
+        "name": "raw iron& metals and scraps",
+        "caption": "raw iron& metals and scraps"
       },
       "chemicals": {
         "name": "Chemicals",

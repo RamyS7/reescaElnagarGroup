@@ -7,7 +7,8 @@
     "contact": "تواصل معنا",
     "getQuote": "اطلب عرض سعر",
     "openMenu": "افتح القائمة",
-    "closeMenu": "أغلق القائمة"
+    "closeMenu": "أغلق القائمة",
+    "menu": "القائمة"
   },
   "common": {
     "readMore": "اقرأ المزيد",
@@ -58,22 +59,22 @@
   "branches": {
     "egyptMain": {
       "country": "مصر",
-      "name": "شركة ريسكا",
+      "name": "Reesca Company",
       "address": "طريق البتروكيماويات، منطقة مرغم الصناعية، الإسكندرية 23722"
     },
     "egyptFactory": {
       "country": "مصر · مصنع",
-      "name": "أفاميا سكاي بلايوود",
+      "name": "Afamia Sky Plywood LLc Factory",
       "address": "طريق البتروكيماويات، منطقة مرغم الصناعية، الإسكندرية 23722"
     },
     "turkey": {
       "country": "تركيا",
-      "name": "ريسكا النجار الدولية",
+      "name": "Reesca Elnagar group International mobilya stls",
       "address": "حي يافوز سلطان سليم، شارع د. صادق أحمد رقم 24، الفاتح، إسطنبول"
     },
     "uae": {
       "country": "الإمارات",
-      "name": "ريسكا النجار للتجارة العالمية",
+      "name": "Reesca Elnagar Global Trading co LLC Sos",
       "address": "مكتب 1، مبنى 361، السويدي، القوز الصناعية الأولى، دبي"
     }
   },
@@ -185,6 +186,8 @@
       "eyebrow": "مصر · تركيا · الإمارات",
       "headline": "جميع منتجات الأخشاب",
       "headlineAccent": "وأكثر",
+      "tagline": "خامات طبيعية",
+      "taglineAccent": "إمكانيات عالمية",
       "subtitle": "موردك العالمي الموثوق لمنتجات الأخشاب الفاخرة والسلع الاستراتيجية، بخبرة تزيد عن 15 عاماً في التجارة الدولية.",
       "ctaPrimary": "استكشف المنتجات",
       "ctaSecondary": "تواصل معنا",
@@ -329,8 +332,8 @@
         "caption": "زيوت الطعام"
       },
       "iron": {
-        "name": "حديد خام وخردة",
-        "caption": "حديد خام وخردة"
+        "name": "الحديد والمعادن الخام والخردة",
+        "caption": "الحديد والمعادن الخام والخردة"
       },
       "chemicals": {
         "name": "كيماويات",

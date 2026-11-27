@@ -16,7 +16,7 @@ export function WoodHeroBanner() {
         minHeight: "340px",
         backgroundImage:
           imageOverlay + ", " +
-          "url('https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1600&q=80')",
+          "url('/images/wood-hero.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

@@ -53,12 +53,37 @@ export function ProductModal({
     }
   }, [product]);
 
-  // Escape key
+  // Restore focus on close
+  const handleClose = useCallback(() => {
+    onClose();
+    requestAnimationFrame(() => triggerRef.current?.focus());
+  }, [onClose]);
+
+  // Escape closes (via handleClose so focus returns to the trigger);
+  // Tab / Shift+Tab cycle inside the dialog instead of escaping to the page.
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") {
+        handleClose();
+        return;
+      }
+      if (e.key !== "Tab" || !overlayRef.current) return;
+      const focusable = overlayRef.current.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      );
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      const active = document.activeElement;
+      if (e.shiftKey && (active === first || !overlayRef.current.contains(active))) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && (active === last || !overlayRef.current.contains(active))) {
+        e.preventDefault();
+        first.focus();
+      }
     },
-    [onClose],
+    [handleClose],
   );
 
   useEffect(() => {
@@ -68,11 +93,6 @@ export function ProductModal({
     }
   }, [product, handleKeyDown]);
 
-  // Restore focus on close
-  const handleClose = useCallback(() => {
-    onClose();
-    requestAnimationFrame(() => triggerRef.current?.focus());
-  }, [onClose]);
 
   // Navigate to inquiry section
   const handleEmailClick = useCallback(() => {

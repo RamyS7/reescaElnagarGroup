@@ -19,14 +19,14 @@ export function StatsStrip() {
 
   return (
     <section className="border-b border-taupe bg-cream px-5 py-12 md:px-20 md:py-14">
-      <div className="mx-auto grid max-w-content grid-cols-2 gap-12 md:grid-cols-4 md:gap-12">
+      <div className="mx-auto grid max-w-content grid-cols-2 gap-12 lg:grid-cols-4 lg:gap-12">
         {stats.map((stat, i) => (
           <div
             key={stat.label}
             className={
-              // Dividers between columns on md+ only
+              // Dividers between columns on lg+ only (4 columns need ~1024px)
               i > 0
-                ? "md:border-s md:border-taupe md:ps-12"
+                ? "lg:border-s lg:border-taupe lg:ps-12"
                 : ""
             }
           >

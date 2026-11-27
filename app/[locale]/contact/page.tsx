@@ -116,24 +116,16 @@ export default function ContactPage() {
           {/* Emails & website block */}
           <div className="mx-auto mt-10 max-w-3xl rounded-card bg-charcoal p-6 text-white">
             <ul className="grid grid-cols-1 gap-3 text-sm md:grid-cols-2">
-              <li className="flex items-center gap-2.5">
-                <Mail className="h-4 w-4 text-gold" aria-hidden="true" />
-                <a
-                  href={`mailto:${company.emails.primary}`}
-                  className="text-white/90 hover:text-gold"
-                >
-                  {company.emails.primary}
-                </a>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <Mail className="h-4 w-4 text-gold" aria-hidden="true" />
-                <a
-                  href={`mailto:${company.emails.secondary}`}
-                  className="text-white/90 hover:text-gold"
-                >
-                  {company.emails.secondary}
-                </a>
-              </li>
+              {[company.emails.management, company.emails.sales, company.emails.info].map(
+                (email) => (
+                  <li key={email} className="flex items-center gap-2.5">
+                    <Mail className="h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
+                    <a href={`mailto:${email}`} className="break-all text-white/90 hover:text-gold">
+                      {email}
+                    </a>
+                  </li>
+                ),
+              )}
               <li className="flex items-center gap-2.5">
                 <Phone className="h-4 w-4 text-gold" aria-hidden="true" />
                 <a
