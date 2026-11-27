@@ -32,7 +32,7 @@ export function Navbar() {
           <Image
             src="/images/logos/logo.png"
             alt="Reesca Elnagar Group"
-            width={190}
+            width={173}
             height={76}
             priority
             className="block h-[60px] w-auto md:h-[76px]"
@@ -44,7 +44,7 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-charcoal hover:text-forest"
+              className="whitespace-nowrap text-charcoal hover:text-forest"
             >
               {link.label}
             </Link>
@@ -58,7 +58,7 @@ export function Navbar() {
           </div>
           <Link
             href="/contact"
-            className="hidden rounded-button bg-gold px-5 py-2.5 text-[13px] font-semibold tracking-wide text-charcoal shadow-button-gold transition hover:bg-gold-dark hover:text-white lg:inline-block"
+            className="hidden whitespace-nowrap rounded-button bg-gold px-5 py-2.5 text-[13px] font-semibold tracking-wide text-charcoal shadow-button-gold transition hover:bg-gold-dark hover:text-white lg:inline-block"
           >
             {t("getQuote")}
           </Link>

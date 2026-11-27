@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { imageOverlay } from "@/lib/design-tokens";
 
 /**
  * About page hero banner — same style as Wood Products & Trading pages.
@@ -14,8 +15,8 @@ export function AboutHeroBanner() {
       style={{
         minHeight: "340px",
         backgroundImage:
-          "linear-gradient(135deg, rgba(31,40,33,0.82) 0%, rgba(107,68,35,0.78) 100%), " +
-          "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80')",
+          imageOverlay + ", " +
+          "url('/images/about-plywood.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

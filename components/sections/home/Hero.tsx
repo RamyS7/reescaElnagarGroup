@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/Button";
 import { Star } from "lucide-react";
+import { imageOverlay } from "@/lib/design-tokens";
 
 /**
  * Hero — top of the homepage.
@@ -17,7 +18,7 @@ export function Hero() {
       style={{
         minHeight: "680px",
         backgroundImage:
-          "linear-gradient(135deg, rgba(31,40,33,0.85) 0%, rgba(44,95,45,0.75) 100%), " +
+          imageOverlay + ", " +
           "url('https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=1600&q=80')",
         backgroundSize: "cover",
         backgroundPosition: "center",

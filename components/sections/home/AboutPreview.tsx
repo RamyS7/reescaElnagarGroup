@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { ArrowRight } from "lucide-react";
+import { imageOverlay } from "@/lib/design-tokens";
 
 /**
  * About preview — 2-column section.
@@ -19,8 +20,7 @@ export function AboutPreview() {
           className="relative h-[440px] overflow-hidden rounded-card"
           style={{
             backgroundImage:
-              "linear-gradient(135deg, #6B4423 0%, #2C5F2D 100%), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80')",
-            backgroundBlendMode: "multiply",
+              `${imageOverlay}, url('/images/about-plywood.jpg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

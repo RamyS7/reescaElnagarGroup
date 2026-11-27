@@ -18,6 +18,7 @@ type Props = {
   typicalLabel: string;
   whatsappLabel: string;
   emailLabel: string;
+  photoPendingLabel: string;
   onClose: () => void;
 };
 
@@ -27,6 +28,7 @@ export function ProductModal({
   typicalLabel,
   whatsappLabel,
   emailLabel,
+  photoPendingLabel,
   onClose,
 }: Props) {
   const overlayRef = useRef<HTMLDivElement>(null);
@@ -116,13 +118,19 @@ export function ProductModal({
 
         {/* Image */}
         <div className="relative h-56 shrink-0 bg-cream md:h-auto md:w-2/5">
-          <Image
-            src={product.image}
-            alt={translations.name}
-            fill
-            sizes="(max-width: 768px) 100vw, 40vw"
-            className="object-contain p-4"
-          />
+          {product.image ? (
+            <Image
+              src={product.image}
+              alt={translations.name}
+              fill
+              sizes="(max-width: 768px) 100vw, 40vw"
+              className="object-contain p-4"
+            />
+          ) : (
+            <div className="flex h-full items-center justify-center bg-taupe p-4 text-center text-sm text-earth">
+              {photoPendingLabel}
+            </div>
+          )}
         </div>
 
         {/* Content */}

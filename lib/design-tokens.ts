@@ -45,3 +45,10 @@ export const spacing = {
 } as const;
 
 export const maxContentWidth = "1200px";
+
+/**
+ * Navy tint laid over every background photo (heroes, division cards,
+ * about preview, factory showcase) so all imagery shares one look.
+ */
+export const imageOverlay =
+  "linear-gradient(135deg, rgba(29, 59, 80, 0.57) 90%, rgba(16,35,50,0.88) 100%)";

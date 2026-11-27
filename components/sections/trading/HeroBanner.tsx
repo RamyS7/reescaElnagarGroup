@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { imageOverlay } from "@/lib/design-tokens";
 
 export function TradingHeroBanner() {
   const t = useTranslations("trading.hero");
@@ -11,7 +12,7 @@ export function TradingHeroBanner() {
       style={{
         minHeight: "340px",
         backgroundImage:
-          "linear-gradient(135deg, rgba(31,40,33,0.85) 0%, rgba(44,95,45,0.75) 100%), " +
+          imageOverlay + ", " +
           "url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1600&q=80')",
         backgroundSize: "cover",
         backgroundPosition: "center",

@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { imageOverlay } from "@/lib/design-tokens";
 
 /**
  * Wood Products hero banner — 40vh, wood texture bg, dark overlay.
@@ -14,7 +15,7 @@ export function WoodHeroBanner() {
       style={{
         minHeight: "340px",
         backgroundImage:
-          "linear-gradient(135deg, rgba(31,40,33,0.82) 0%, rgba(107,68,35,0.78) 100%), " +
+          imageOverlay + ", " +
           "url('https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1600&q=80')",
         backgroundSize: "cover",
         backgroundPosition: "center",

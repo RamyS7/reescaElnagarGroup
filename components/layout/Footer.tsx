@@ -39,7 +39,7 @@ export function Footer() {
               <Image
                 src="/images/logos/logo.png"
                 alt={company.name}
-                width={200}
+                width={191}
                 height={84}
                 className="block h-[84px] w-auto"
               />

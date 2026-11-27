@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Check } from "lucide-react";
+import { imageOverlay } from "@/lib/design-tokens";
 
 /**
  * Dark forest/charcoal section showcasing the Alexandria factory.
@@ -32,7 +33,7 @@ export function FactoryShowcase() {
           className="h-[380px] overflow-hidden rounded-card md:h-[420px]"
           style={{
             backgroundImage:
-              "linear-gradient(135deg, rgba(44,95,45,0.4) 0%, rgba(107,68,35,0.4) 100%), " +
+              imageOverlay + ", " +
               "url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&q=80')",
             backgroundSize: "cover",
             backgroundPosition: "center",

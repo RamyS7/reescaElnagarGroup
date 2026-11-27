@@ -25,9 +25,10 @@ export function LanguageSwitcher() {
       className="flex items-center gap-1.5 rounded-md border border-taupe px-3 py-1.5 text-[13px] font-medium text-earth"
       aria-label={t("language")}
     >
-      <Globe className="h-3.5 w-3.5" aria-hidden="true" />
       {routing.locales.map((loc, i) => (
         <span key={loc} className="flex items-center gap-1.5">
+          {/* globe marks the active language, so it moves with the switch */}
+          {loc === locale && <Globe className="h-3.5 w-3.5" aria-hidden="true" />}
           <button
             type="button"
             onClick={() => switchTo(loc)}

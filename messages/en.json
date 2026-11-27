@@ -18,7 +18,8 @@
     "typicalApplications": "Typical Applications",
     "moreDetails": "More Details",
     "contactWhatsapp": "Contact via WhatsApp",
-    "contactEmail": "Send Email Inquiry"
+    "contactEmail": "Send Email Inquiry",
+    "photoPending": "Product photograph pending"
   },
   "comingSoon": {
     "eyebrow": "COMING SOON",
@@ -118,6 +119,34 @@
       "app1": "Decorative furniture surfaces",
       "app2": "Interior panels and joinery",
       "discuss": "Discuss veneer thickness, sheet size and face quality."
+    },
+    "mdf": {
+      "name": "MDF",
+      "desc": "Medium-density fibreboard",
+      "app1": "Furniture",
+      "app2": "Interior applications",
+      "discuss": "Discuss board thickness, sheet size and surface finish."
+    },
+    "blockboard": {
+      "name": "Blockboard",
+      "desc": "Wood strip core panels",
+      "app1": "Furniture",
+      "app2": "Joinery",
+      "discuss": "Discuss core type, thickness and face veneer requirements."
+    },
+    "osb": {
+      "name": "OSB",
+      "desc": "Oriented strand board",
+      "app1": "Construction",
+      "app2": "Panel applications",
+      "discuss": "Discuss board grade, thickness and sheet size."
+    },
+    "birchLogs": {
+      "name": "Birch Logs",
+      "desc": "Birch roundwood",
+      "app1": "Veneer production",
+      "app2": "Timber processing",
+      "discuss": "Discuss log diameter, length, grade and quantity."
     }
   },
   "wood": {
@@ -173,7 +202,8 @@
       "woodTitle": "Wood Products",
       "woodDesc": "Panels, plywood, veneer, logs, MDF & more — sourced from Europe and worldwide, manufactured in our Alexandria factory.",
       "woodCta": "Explore Wood",
-      "tradingTitle": "General Trading",
+      "tradingTitle": "International General Trading",
+      "tradingEyebrow": "BEYOND BORDERS.",
       "tradingDesc": "Strategic commodities worldwide — grains, cooking oils, fabrics, chemicals, iron and more. We source what you need.",
       "tradingCta": "Explore Trading"
     },

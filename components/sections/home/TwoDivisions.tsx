@@ -3,6 +3,7 @@ import { Link } from "@/i18n/routing";
 import { SectionHeader } from "@/components/sections/SectionHeader";
 import { ArrowRight, TreePine, Globe2 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { imageOverlay } from "@/lib/design-tokens";
 
 /**
  * Two large cards: Wood Products + General Trading.
@@ -12,6 +13,8 @@ import { cn } from "@/lib/utils";
 
 type DivisionProps = {
   title: string;
+  /** small gold uppercase line shown above the title */
+  eyebrow?: string;
   description: string;
   cta: string;
   href: string;
@@ -21,11 +24,8 @@ type DivisionProps = {
   Icon: React.ComponentType<{ className?: string }>;
 };
 
-function DivisionCard({ title, description, cta, href, bgImage, overlay, Icon }: DivisionProps) {
-  const overlayStyle =
-    overlay === "earth"
-      ? "linear-gradient(180deg, rgba(31,40,33,0.1) 0%, rgba(107,68,35,0.92) 100%)"
-      : "linear-gradient(180deg, rgba(31,40,33,0.1) 0%, rgba(44,95,45,0.92) 100%)";
+function DivisionCard({ title, eyebrow, description, cta, href, bgImage, Icon }: DivisionProps) {
+  const overlayStyle = imageOverlay;
 
   return (
     <Link
@@ -43,6 +43,11 @@ function DivisionCard({ title, description, cta, href, bgImage, overlay, Icon }:
         <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-white/15 backdrop-blur-md">
           <Icon className="h-7 w-7 text-white" aria-hidden="true" />
         </div>
+        {eyebrow && (
+          <div className="mb-3 text-xs font-medium uppercase tracking-[2px] text-gold">
+            {eyebrow}
+          </div>
+        )}
         <h3 className="mb-3 text-3xl font-bold">{title}</h3>
         <p className="mb-5 max-w-md text-[15px] leading-relaxed text-white/90">
           {description}
@@ -71,16 +76,17 @@ export function TwoDivisions() {
             href="/wood-products"
             Icon={TreePine}
             overlay="earth"
-            bgImage="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1200&q=80"
+            bgImage="/images/general-wood.jpeg"
           />
           <DivisionCard
             title={t("tradingTitle")}
+            eyebrow={t("tradingEyebrow")}
             description={t("tradingDesc")}
             cta={t("tradingCta")}
             href="/general-trading"
             Icon={Globe2}
             overlay="forest"
-            bgImage="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1200&q=80"
+            bgImage="/images/general-trading.webp"
           />
         </div>
       </div>

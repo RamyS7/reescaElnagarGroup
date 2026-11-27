@@ -9,7 +9,7 @@ import { ProductModal } from "@/components/ui/ProductModal";
 import { woodProducts, type WoodProduct } from "@/lib/data/wood-products";
 
 /**
- * 6 wood-product horizontal cards (1/3 image + 2/3 content)
+ * 10 wood-product horizontal cards (1/3 image + 2/3 content)
  * matching PowerPoint slides 3–8, with modal detail view.
  */
 export function WoodProductsGrid() {
@@ -41,13 +41,19 @@ export function WoodProductsGrid() {
               >
                 {/* Image — 1/3 */}
                 <div className="relative w-1/3 shrink-0 bg-cream">
-                  <Image
-                    src={product.image}
-                    alt={tr.name}
-                    fill
-                    sizes="(max-width: 768px) 33vw, 200px"
-                    className="object-contain p-3"
-                  />
+                  {product.image ? (
+                    <Image
+                      src={product.image}
+                      alt={tr.name}
+                      fill
+                      sizes="(max-width: 768px) 33vw, 200px"
+                      className="object-contain p-3"
+                    />
+                  ) : (
+                    <div className="flex h-full min-h-[140px] items-center justify-center bg-taupe p-3 text-center text-xs text-earth">
+                      {tCommon("photoPending")}
+                    </div>
+                  )}
                 </div>
 
                 {/* Content — 2/3 */}
@@ -100,6 +106,7 @@ export function WoodProductsGrid() {
         typicalLabel={tCommon("typicalApplications")}
         whatsappLabel={tCommon("contactWhatsapp")}
         emailLabel={tCommon("contactEmail")}
+        photoPendingLabel={tCommon("photoPending")}
         onClose={() => setSelected(null)}
       />
     </section>
